@@ -27,10 +27,10 @@
       <v-card-actions>
         <v-spacer></v-spacer>
         <v-btn prepend-icon="mdi-github" @click="download('https://github.com/Georges987/flutter_sqflite_student')">
-          Accéder au repositorie Git
+          Git
         </v-btn>
         <v-btn prepend-icon="mdi-download" @click="download('/files/sqflite-student.apk')">
-          Télécharger l'application
+          Télécharger l'APK
         </v-btn>
       </v-card-actions>
     </v-card>
