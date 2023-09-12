@@ -1,7 +1,5 @@
 <template>
-  <v-container>
-    <HelloWorld/>
-  </v-container>
+  <v-img></v-img>
 </template>
 
 <script>
@@ -11,7 +9,7 @@ export default
   name: 'HomeView',
 
   components: {
-    HelloWorld: () => import('@/components/HelloWorld.vue'),
+    
   },
 };
 </script>
